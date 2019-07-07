@@ -5,51 +5,66 @@
  * インスタンスによるAdapterパターン（委譲を使ったもの）
  */
 
-interface MyPrint {
-    public function printWeak(): void;
-    public function printStrong(): void;
-}
+namespace sample02B {
 
-class Banner {
-    private $string;
-    public function Banner(String $string) {
-        $this->string = $string;
-    }
-    public function showWithParen(): void {
-        print('(' . $this->string . ')');
-    }
-    public function showWithAster(): void {
-        print('*' . $this->string . '*');
-    }
-}
-
-class PrintBanner implements MyPrint {
-    private $banner;
-
-    public function __construct(Banner $banner)
+    interface MyPrint
     {
+        public function printWeak(): void;
 
-        $this->banner = $banner;
+        public function printStrong(): void;
     }
 
-    public function printWeak(): void
+    class Banner
     {
-        $this->banner->showWithParen();
+        private $string;
+
+        public function Banner(String $string)
+        {
+            $this->string = $string;
+        }
+
+        public function showWithParen(): void
+        {
+            print('(' . $this->string . ')');
+        }
+
+        public function showWithAster(): void
+        {
+            print('*' . $this->string . '*');
+        }
     }
 
-    public function printStrong(): void
+    class PrintBanner implements MyPrint
     {
-        $this->banner->showWithAster();
-    }
-}
+        private $banner;
 
-class Main {
-    public static function run() {
-        $printBanner = new PrintBanner(new Banner("ice born"));
-        $printBanner->printWeak();
-        print(PHP_EOL);
-        $printBanner->printStrong();
-    }
-}
+        public function __construct(Banner $banner)
+        {
 
-Main::run();
+            $this->banner = $banner;
+        }
+
+        public function printWeak(): void
+        {
+            $this->banner->showWithParen();
+        }
+
+        public function printStrong(): void
+        {
+            $this->banner->showWithAster();
+        }
+    }
+
+    class Main
+    {
+        public static function run()
+        {
+            $printBanner = new PrintBanner(new Banner("ice born"));
+            $printBanner->printWeak();
+            print(PHP_EOL);
+            $printBanner->printStrong();
+        }
+    }
+
+    Main::run();
+}

@@ -8,44 +8,59 @@
  * - インスタンスによるAdapterパターン（委譲を使ったもの）
  */
 
-interface MyPrint {
-    public function printWeak(): void;
-    public function printStrong(): void;
-}
+namespace sample02 {
 
-class Banner {
-    private $string;
-    public function Banner(String $string) {
-        $this->string = $string;
-    }
-    public function showWithParen(): void {
-        print('(' . $this->string . ')');
-    }
-    public function showWithAster(): void {
-        print('*' . $this->string . '*');
-    }
-}
-
-class PrintBanner extends Banner implements MyPrint {
-
-    public function printWeak(): void
+    interface MyPrint
     {
-        $this->showWithParen();
+        public function printWeak(): void;
+
+        public function printStrong(): void;
     }
 
-    public function printStrong(): void
+    class Banner
     {
-        $this->showWithAster();
-    }
-}
+        private $string;
 
-class Main{
-    public static function run() {
-        $printBanner = new PrintBanner("ice born");
-        $printBanner->printWeak();
-        print(PHP_EOL);
-        $printBanner->printStrong();
-    }
-}
+        public function Banner(String $string)
+        {
+            $this->string = $string;
+        }
 
-Main::run();
+        public function showWithParen(): void
+        {
+            print('(' . $this->string . ')');
+        }
+
+        public function showWithAster(): void
+        {
+            print('*' . $this->string . '*');
+        }
+    }
+
+    class PrintBanner extends Banner implements MyPrint
+    {
+
+        public function printWeak(): void
+        {
+            $this->showWithParen();
+        }
+
+        public function printStrong(): void
+        {
+            $this->showWithAster();
+        }
+    }
+
+    class Main
+    {
+        public static function run()
+        {
+            $printBanner = new PrintBanner("ice born");
+            $printBanner->printWeak();
+            print(PHP_EOL);
+            $printBanner->printStrong();
+        }
+    }
+
+    Main::run();
+}
