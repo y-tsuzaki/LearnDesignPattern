@@ -3,6 +3,15 @@
 /***
  * Factory Method
  * インスタンス生成をサブクラスに任せる
+ * オブジェクト生成を容易にする
+ * Template Methodをインスタンス生成に適応させたもの
+ *
+ * 例） java.net.URLConnection
+ * URL url = new URL("http://example.com");
+ * URLConnection connection = url.openConnection();
+ *
+ * openConnection()では　URLの種類によってHttpURLConnectionまたはJarURLConnectionが生成される。
+ * もし、FactoryMethodパターンを使用しなければ、利用側でどちらのURLConnectionを生成するか分岐しなくてはならず複雑になってしまう
  */
 
 namespace sample04 {

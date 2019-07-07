@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f238c847-8da7-4467-8a8b-a4a6db16a325" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/01_IteratorPattern.php" beforeDir="false" afterPath="$PROJECT_DIR$/01_IteratorPattern.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_AdapterPattern.php" beforeDir="false" afterPath="$PROJECT_DIR$/02_AdapterPattern.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_AdapterPattern_B.php" beforeDir="false" afterPath="$PROJECT_DIR$/02_AdapterPattern_B.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Singleton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Memo.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_Memo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03_TemplateMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/03_TemplateMethod.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04_FactoryMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/04_FactoryMethod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +38,7 @@
         <entry file="file://$PROJECT_DIR$/00_Memo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="81">
-                <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_TemplateMethod.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="221">
+              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
               <folding>
                 <element signature="e#7#40#0#PHP" expanded="true" />
               </folding>
@@ -67,10 +66,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="375">
+                <caret line="25" selection-start-line="25" selection-end-line="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_FactoryMethod.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="195">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_Singleton.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#7#31#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,12 +124,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/IteratorPattern.php" />
-        <option value="$PROJECT_DIR$/00_Memo.md" />
         <option value="$PROJECT_DIR$/01_IteratorPattern.php" />
         <option value="$PROJECT_DIR$/02_AdapterPattern.php" />
         <option value="$PROJECT_DIR$/02_AdapterPattern_B.php" />
         <option value="$PROJECT_DIR$/03_TemplateMethod.php" />
         <option value="$PROJECT_DIR$/04_FactoryMethod.php" />
+        <option value="$PROJECT_DIR$/05_Singleton.php" />
+        <option value="$PROJECT_DIR$/00_Memo.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -167,29 +192,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.02_AdapterPattern.php">
-    <configuration name="01_IteratorPattern.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/01_IteratorPattern.php">
+  <component name="RunManager" selected="PHP Script.05_Singleton.php">
+    <configuration name="05_Singleton.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LearnDesignPattern/05_Singleton.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="02_AdapterPattern_B.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/02_AdapterPattern_B.php">
+    <configuration name="01_IteratorPattern.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/01_IteratorPattern.php">
       <method v="2" />
     </configuration>
     <configuration name="02_AdapterPattern.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/02_AdapterPattern.php">
       <method v="2" />
     </configuration>
-    <configuration name="03_TemplateMethod.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/03_TemplateMethod.php">
+    <configuration name="04_FactoryMethod.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/04_FactoryMethod.php">
       <method v="2" />
     </configuration>
-    <configuration name="04_FactoryMethod.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/04_FactoryMethod.php">
+    <configuration name="05_Singleton.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/05_Singleton.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.05_Singleton.php" />
+        <item itemvalue="JavaScript Debug.05_Singleton.php" />
         <item itemvalue="PHP Script.02_AdapterPattern.php" />
         <item itemvalue="PHP Script.01_IteratorPattern.php" />
         <item itemvalue="PHP Script.04_FactoryMethod.php" />
-        <item itemvalue="PHP Script.03_TemplateMethod.php" />
-        <item itemvalue="PHP Script.02_AdapterPattern_B.php" />
       </list>
     </recent_temporary>
   </component>
@@ -203,12 +228,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561275672657</updated>
-      <workItem from="1561275673937" duration="11133000" />
+      <workItem from="1561275673937" duration="13642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11133000" />
+    <option name="totallyTimeSpent" value="13642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,17 +248,17 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5010571" side_tool="true" visible="true" weight="0.24555735" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.24555735" />
+      <window_info id="Favorites" sideWeight="0.5010142" side_tool="true" visible="true" weight="0.24555735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.24555735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" weight="0.32868218" />
+      <window_info anchor="bottom" id="Docker" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.28029197" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.28029197" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30948904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30948904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,27 +273,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Memo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="81">
-            <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_IteratorPattern.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-694">
           <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_AdapterPattern.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -284,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_TemplateMethod.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="221">
+          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding>
             <element signature="e#7#40#0#PHP" expanded="true" />
           </folding>
@@ -294,8 +302,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_FactoryMethod.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_AdapterPattern.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Singleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#7#31#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Memo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
